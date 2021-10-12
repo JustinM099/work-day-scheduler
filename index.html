@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Work Day Scheduler</title>
+</head>
+
+<body>
+  <header class="jumbotron bg-secondary text-light">
+    <h1 class="display-3">Work Day Scheduler</h1>
+    <p class="lead">A simple calendar app for scheduling your work day</p>
+    <p id="currentDay" class="lead"></p>
+    <p id="clock" class="lead"></p>
+  </header>
+  <section class="container" id='timeblock-container'>
+    <!-- Timeblocks go here -->
+    <div class="row">
+      <label for="9field" class="col">09:00am</label>
+      <textarea id="9field" class="col-10 time-block" data-hour="09"></textarea>
+      <button id="9" class="saveBtn col">Save</button>
+    </div>
+    <div class="row">
+      <label for="10field" class="col">10:00am</label>
+      <textarea id="10field" class="col-10 time-block" data-hour="10"></textarea>
+      <button  id="10" class="saveBtn col">Save</button>
+    </div>
+    <div class="row">
+      <label for="11field" class="col">11:00am</label>
+      <textarea id="11field" class="col-10 time-block" data-hour="11"></textarea>
+      <button id="11" class="saveBtn col">Save</button>
+    </div>
+    <div class="row">
+      <label for="12field" class="col">noon</label>
+      <textarea id="12field" class="col-10 time-block" data-hour="12"></textarea>
+      <button id="12" class="saveBtn col">Save</button>
+    </div>
+    <div class="row">
+      <label for="1field" class="col">01:00pm</label>
+      <textarea id="1field" class="col-10 time-block" data-hour="13"></textarea>
+      <button id="1" class="saveBtn col">Save</button>
+    </div>
+    <div class="row">
+      <label for="2field" class="col">02:00pm</label>
+      <textarea id="2field" class="col-10 time-block" data-hour="14"></textarea>
+      <button id="2" class="saveBtn col">Save</button>
+    </div>
+    <div class="row">
+      <label for="3field" class="col">03:00pm</label>
+      <textarea id="3field" class="col-10 time-block" data-hour="15"></textarea>
+      <button id="3" class="saveBtn col">Save</button>
+    </div>
+    <div class="row">
+      <label for="4field" class="col">04:00pm</label>
+      <textarea id="4field" class="col-10 time-block" data-hour="16"></textarea>
+      <button id="4" class="saveBtn col">Save</button>
+    </div>
+    <div class="row">
+      <label for="5field" class="col">05:00pm</label>
+      <textarea id="5field" class="col-10 time-block" data-hour="17"></textarea>
+      <button id="5" class="saveBtn col">Save</button>
+    </div>
+  </section>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
