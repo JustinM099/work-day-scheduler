@@ -8,15 +8,13 @@ let dayWeek = moment().format("dddd MMM Do")
 
 function dataHours() { //applies time-based styling to textareas
     for (i = 0; i < allDataHours.length; i++) {
-        console.log(allDataHours[i])
         currentDataHour = parseInt(allDataHours[i].dataset.hour)
-        console.log(currentDataHour)
         if (currentDataHour < moment().format("HH")) {
             allDataHours[i].classList.add("past")
-        } else if (currentDataHour === moment().format("HH")) {
-            allDataHours[i].classList.add("present")
-        } else {
+        } else if (currentDataHour > moment().format("HH")) {
             allDataHours[i].classList.add("future")
+        } else {
+            allDataHours[i].classList.add("present")
         }
     }
 }
