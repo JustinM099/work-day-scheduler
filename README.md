@@ -12,7 +12,7 @@ the current time block appears in red, and future time blocks appear in green.
 
 ## Screenshot
 Here is a screenshot of the app:
-![alt text](http://day-planner-screenshot.png)
+![screenshot](day-planner-screenshot.png)
 
 
 ## Deployed Page
