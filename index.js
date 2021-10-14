@@ -4,7 +4,7 @@ let fieldID //field ID to target saved local data
 let fieldContent //field content to print saved local data
 let allDataHours = $('[data-hour]') //targeting textareas for styling bassed on time of day
 let currentDataHour
-let dayWeek = moment().format("dddd MMM Do")
+let dayWeek = moment().format("dddd MMM Do") //sets current day
 
 function dataHours() { //applies time-based styling to textareas
     for (i = 0; i < allDataHours.length; i++) {
