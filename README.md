@@ -17,8 +17,8 @@ the current time block appears in red, and future time blocks appear in green.
 
 ## Screenshot
 Here are two screenshots of the app:
-![screenshot](day-planner-screenshot.png)
-![screenshot](day-planner-screenshot-2.png)
+![screenshot](./images/day-planner-screenshot.png)
+![screenshot](./images/day-planner-screenshot-2.png)
 
 ## Deployed Page
 See a deployed version here: https://justinm099.github.io/work-day-scheduler/
