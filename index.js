@@ -3,18 +3,18 @@ let allSaveButtons = $('.saveBtn') //all the save buttons
 let fieldID //field ID to target saved local data
 let fieldContent //field content to print saved local data
 let allDataHours = $('[data-hour]') //targeting textareas for styling bassed on time of day
-let currentDataHour
+let currentDataHour //variable for the hour it currently is
 let dayWeek = moment().format("dddd MMM Do") //sets current day
 
 function dataHours() { //applies time-based styling to textareas
     for (i = 0; i < allDataHours.length; i++) {
         currentDataHour = parseInt(allDataHours[i].dataset.hour)
-        if (currentDataHour < moment().format("HH")) {
-            allDataHours[i].classList.add("past")
-        } else if (currentDataHour > moment().format("HH")) {
-            allDataHours[i].classList.add("future")
+        if (currentDataHour < moment().format("HH")) { //if a block is in the past
+            allDataHours[i].classList.add("past") //add past styling
+        } else if (currentDataHour > moment().format("HH")) { //if a block is in the future
+            allDataHours[i].classList.add("future") //add the future styling
         } else {
-            allDataHours[i].classList.add("present")
+            allDataHours[i].classList.add("present") //add present styling
         }
     }
 }
