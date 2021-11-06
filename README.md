@@ -11,9 +11,9 @@ The input blocks are styled to dynamically change colors with the passing of tim
 the current time block appears in red, and future time blocks appear in green.
 
 ## Screenshot
-Here is a screenshot of the app:
+Here are two screenshots of the app:
 ![screenshot](day-planner-screenshot.png)
-
+![screenshot][day-planner-screenshot-2.png]
 
 ## Deployed Page
 See a deployed version here: https://justinm099.github.io/work-day-scheduler/
