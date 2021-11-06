@@ -10,6 +10,11 @@ button for each block, and their data will persist when the browser is reloaded 
 The input blocks are styled to dynamically change colors with the passing of time. Time blocks in the past appear in grey,
 the current time block appears in red, and future time blocks appear in green.
 
+## Technologies Used
+-Javascript
+-jQuery
+-Bootstrap
+
 ## Screenshot
 Here are two screenshots of the app:
 ![screenshot](day-planner-screenshot.png)
